@@ -48,24 +48,6 @@ Steps:
 
 ---
 
-Contact Form Setup
-
-The contact form uses Formspree.
-
-To make it work:
-
-1. Go to [https://formspree.io](https://formspree.io)
-2. Create a form
-3. Replace the form action in `contact.html`:
-
-```
-https://formspree.io/f/your-form-id
-```
-
----
-
-#Location
-
 The website includes an embedded Google Map pointing to Nairobi, Kenya.
 
 ---
