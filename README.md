@@ -1,35 +1,20 @@
 #JOREN-AUTO-SHOP WEBSITE
+ Overview
 
-## 📌 Overview
+Joren auto shop is a simple multi-page website for a car auto repair business based in Nairobi, Kenya. The website is designed to showcase services, pricing, location, and allow customers to contact the business easily.
 
-JOoren auto shop is a simple multi-page website for a car auto repair business based in Nairobi, Kenya. The website is designed to showcase services, pricing, location, and allow customers to contact the business easily.
+ Features
 
----
-
-## 🌐 Live Website
-
-(Insert your GitHub Pages link here)
-
-Example:
-
-```
-https://Jonnie-k.github.io/autofix-website/
-```
+* Home page with business overview
+*  Services page showing available auto repair services
+* Pricing table for common services
+*  Google Maps integration (location in Nairobi)
+* Contact form (powered by Formspree)
+*Navigation between pages
 
 ---
 
-## 🛠️ Features
-
-* 🏠 Home page with business overview
-* 🔧 Services page showing available auto repair services
-* 💰 Pricing table for common services
-* 📍 Google Maps integration (location in Nairobi)
-* 📩 Contact form (powered by Formspree)
-* 🧭 Navigation between pages
-
----
-
-## 📁 Project Structure
+Project Structure
 
 ```
 autofix-website/
@@ -41,7 +26,7 @@ autofix-website/
 
 ---
 
-## 💻 Technologies Used
+Technologies Used
 
 * HTML5
 * CSS3
@@ -50,8 +35,7 @@ autofix-website/
 * Formspree (for contact form)
 
 ---
-
-## 🚀 Deployment
+Deployment
 
 This project is deployed using **GitHub Pages**.
 
@@ -64,7 +48,7 @@ This project is deployed using **GitHub Pages**.
 
 ---
 
-## 📬 Contact Form Setup
+Contact Form Setup
 
 The contact form uses Formspree.
 
@@ -80,13 +64,13 @@ https://formspree.io/f/your-form-id
 
 ---
 
-## 📍 Location
+#Location
 
 The website includes an embedded Google Map pointing to Nairobi, Kenya.
 
 ---
 
-## 🎯 Purpose of the Project
+#purpose of the Project
 
 This project was created to:
 
@@ -96,7 +80,7 @@ This project was created to:
 
 ---
 
-## 🔄 Future Improvements
+#Future Improvements
 
 * Add customer reviews
 * Improve mobile responsiveness
@@ -105,13 +89,13 @@ This project was created to:
 
 ---
 
-## 👨‍💻 Author
+##Author
 
 Your Name Here
 
 ---
 
-## 📄 License
+#License
 
 This project is open source and free to use for learning purposes.
 
