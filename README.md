@@ -1,4 +1,4 @@
-#JOREN-AUTO-SHOP WEBSITE
+JOREN-AUTO-SHOP WEBSITE
  Overview
 
 Joren auto shop is a simple multi-page website for a car auto repair business based in Nairobi, Kenya. The website is designed to showcase services, pricing, location, and allow customers to contact the business easily.
@@ -18,10 +18,10 @@ Project Structure
 
 ```
 autofix-website/
-│── index.html
-│── services.html
-│── contact.html
-│── README.md
+index.html
+ services.html
+ contact.html
+ README.md
 ```
 
 ---
@@ -39,7 +39,7 @@ Deployment
 
 This project is deployed using **GitHub Pages**.
 
-### Steps:
+Steps:
 
 1. Push code to GitHub repository
 2. Go to repository settings
@@ -70,7 +70,7 @@ The website includes an embedded Google Map pointing to Nairobi, Kenya.
 
 ---
 
-#purpose of the Project
+purpose of the Project
 
 This project was created to:
 
@@ -78,18 +78,10 @@ This project was created to:
 * Learn how to structure a real business website
 * Understand deployment using GitHub Pages
 
----
 
-#Future Improvements
 
-* Add customer reviews
-* Improve mobile responsiveness
-* Add image gallery
-* Add JavaScript for interactivity
 
----
-
-##Author
+Author
 
 Your Name Here
 
