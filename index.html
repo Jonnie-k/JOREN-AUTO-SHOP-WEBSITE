@@ -1,370 +1,161 @@
- <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOREN AUTO SHOP| NAIROBI</title>
-<style>
-    body {
-        margin: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(131, 8, 8);
-        color: rgb(35, 22, 110);
-    }
-    header {
-        background:black;
-        color: rgb(92, 16, 16);
-        padding: 20px;
-        text-align: center;
-    }
-    nav{
-       background:#133a8d;
-         padding:10px;
-            text-align:center;
-    }
-    nav a{
-        color:#1a0f58;
-        margin:0 10px;
-        text-decoration:none;
-        transition:0.3s;
-    }   
-     nav a:hover
-    {
-        color:#0e3e52;
-    }
-    .hero {
-        background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
-        background-size: cover;
-        background-position: center;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(9, 92, 109);
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    .hero div {
-        font-size: 48px;
-        padding:10px 20px;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        animation: fadeIn 2s ease-in-out;
-    }
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
-    .container {
-        padding: 20px;
-    }
-    .services {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-    .card {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        flex: 1 1 200px;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: 0.5s;
-    }
-    .card:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        background: white;
-    }
-    .about,.info {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        margin-top: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    footer {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-</style>
-</head>
-<body>
-    <header>
-        <h1>JOREN AUTO SHOP</h1>
-        <p>Welcome to JOREN AUTO SHOP, your trusted partner for all your automotive needs.</p>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-    <section class="hero">
-        <div>Experience Excellence in Auto Care</div>
-        <h2>Luxury Care for Your Car</h2>
-    </section>
-    <div class="container">
-        <h2>Our Services</h2>
-        <div class="services">
-            <div class="card">
-                <h3>Engine Repair</h3>
-                <p>Fixing engine problems.</p>
-            </div>
-            <div class="card">
-                <h3>Oil Change</h3>
-                <p>Regular oil services.</p>
-            </div>
-            <div class="card">
-                <h3>Brake Repair</h3>
-                <p>Safe braking system.</p>
-            </div>
-            <table>
-                <style>
-                    table {
-                        width: 100%;
-                        border-collapse: collapse;
-                        text-align: center;
-                    }
-                    th, td {
-                        border: 1px solid #ddd;
-                        padding: 8px;
-                        text-align: center;
-                    }
-                    th {
-                        background-color: #f2f2f2;
-                        text-align: center;
-                    }
-                </style>    
-                <tr>
-                    <th>Service</th>
-                    <th>Price (Ksh)</th>
-                </tr>
-                <tr>
-                    <td>Engine Repair</td>
-                    <td>10,000 - 50,000</td>
-                </tr>
-                <tr>
-                    <td>Oil Change</td> 
-                    <td>2,000 - 5,000</td>
-                </tr>
-                <tr>
-                    <td>Brake Repair</td>
-                    <td>5,000 - 20,000</td>
-                </tr>
-            </table>
-            <h2>Our Location</h2>
-            <iframe src="https://www.google.com/maps?=Nairobi%20Kenya&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
-    <footer>
-        <p>Contact us: +254 700 000 000 | Nairobi, Kenya</p>
-        <p>&copy; 2025 JOREN AUTO SHOP. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-
-
-    <!-- ================= HOME PAGE (index.html) ================= -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoFix | Home</title>
-  <style>
-    body{font-family:Arial, Helvetica, sans-serif;margin:0;background:#f4f4f4;color:#333}
-    header{background:#333;color:#fff;padding:15px;text-align:center}
-    nav{background:#555;padding:10px;text-align:center}
-    nav a{color:#fff;margin:0 10px;text-decoration:none;transition:0.3s}
-    nav a:hover{color:#ffd700}
-
-    /* HERO WITH LUXURY CAR BACKGROUND */
-    .hero{
-      background:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') no-repeat center/cover;
-      height:300px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      color:white;
-      text-align:center;
-    }
-
-    .hero h2{
-      background:rgba(0,0,0,0.5);
-      padding:10px 20px;
-      border-radius:5px;
-      animation:fadeIn 1.5s ease-in-out;
-    }
-
-    /* SIMPLE FADE ANIMATION */
-    @keyframes fadeIn{
-      from{opacity:0}
-      to{opacity:1}
-    }
-
-    .container{padding:20px}
-    .services{display:flex;flex-wrap:wrap;gap:10px}
-
-    .card{
-      background:#fff;
-      border:1px solid #ddd;
-      padding:15px;
-      flex:1 1 200px;
-      transition:0.3s;
-    }
-
-    /* SIMPLE HOVER EFFECT */
-    .card:hover{
-      background:#f0f0f0;
-    }
-
-    footer{background:#333;color:#fff;text-align:center;padding:10px;margin-top:20px}
-  </style>
+  <title>JOREN AUTO SHOP| Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>AutoFix Car Shop</h1>
-  <p>Reliable Car Repair Services</p>
-</header>
+    <style>
+    *{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 15px 40px;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+.nav-links a:hover,
+.active {
+  background: #ff6600;
+  border-radius: 5px;
+}
+
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ff6600;
+  color: white;
+  text-decoration: none;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+  margin-top: 30px;
+}
+    </style>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="services.html">Services</a>
-  <a href="contact.html">Contact</a>
+  <h2 class="logo">JOREN AUTOs</h2>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
 
-<section class="hero">
-  <h2>Luxury Care for Your Car</h2>
+<header class="hero">
+  <div class="hero-text">
+    <h1>Reliable Car Repair Services</h1>
+    <p>We keep your car running like new</p>
+    <a href="services.html" class="btn">View Services</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>Why Choose Us?</h2>
+  <p>We offer professional and affordable auto repair services with experienced mechanics.</p>
 </section>
 
-<div class="container">
-  <h2>Our Services</h2>
-  <div class="services">
-    <div class="card"><h3>Engine Repair</h3><p>Fixing engine problems.</p></div>
-    <div class="card"><h3>Oil Change</h3><p>Regular oil services.</p></div>
-    <div class="card"><h3>Brake Repair</h3><p>Safe braking system.</p></div>
-  </div>
-</div>
-
 <footer>
-  <p>© 2026 AutoFix</p>
+  <p>© 2026 JOREN AUTOs. All rights reserved.</p>
 </footer>
+
 </body>
 </html>
-
-
-<!-- ================= SERVICES PAGE (services.html) ================= -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AutoFix | Services</title>
-<style>
-body{font-family:Arial;margin:0;background:#f4f4f4}
-header{background:#333;color:#fff;padding:15px;text-align:center}
-nav{background:#555;padding:10px;text-align:center}
-nav a{color:#fff;margin:0 10px;text-decoration:none;transition:0.3s}
-nav a:hover{color:#ffd700}
-.container{padding:20px}
-.card{background:#fff;border:1px solid #ddd;padding:15px;margin-bottom:10px;transition:0.3s}
-.card:hover{background:#f0f0f0}
-</style>
-</head>
-<body>
-<header>
-<h1>AutoFix Services</h1>
-</header>
-<nav>
-<a href="index.html">Home</a>
-<a href="services.html">Services</a>
-<a href="contact.html">Contact</a>
-</nav>
-
-<div class="container">
-<h2>What We Offer</h2>
-<div class="card"><h3>Engine Repair</h3></div>
-<div class="card"><h3>Oil Change</h3></div>
-<div class="card"><h3>Brake Service</h3></div>
-<div class="card"><h3>Tire Replacement</h3></div>
-</div>
-</body>
-</html>
-
-
-<!-- ================= CONTACT PAGE (contact.html) ================= -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AutoFix | Contact</title>
-<style>
-body{
-    font-family:Arial;
-    margin:0;
-    background:#f4f4f4
-}
-header{background:#333;
-    color:#fff;
-    padding:15px;
-    text-align:center
-}
-nav{background:#555;
-    padding:10px;text-align:center
-}
-nav a{color:#fff;margin:0 10px;
-    text-decoration:
-    none;transition:0.3s
-}
-nav a:hover
-{color:#ffd700}
-.form{
-    background:#fff;
-    border:1px solid #ddd;
-    padding:20px;
-    margin:20px}
-input,textarea
-{
-    width:100%;padding:8px;
-    margin:5px 0;
-    border:1px solid #ccc
-}
-button{
-    padding:10px;
-    background:#333;
-    color:#fff;border:none;
-    cursor:pointer
-}
-button:hover{background:#555}
-</style>
-</head>
-<body>
-<header>
-<h1>Contact AutoFix</h1>
-</header>
-<nav>
-<a href="index.html">Home</a>
-<a href="services.html">Services</a>
-<a href="contact.html">Contact</a>
-</nav>
-
-<div class="form">
-<h2>Send Us a Message</h2>
-<form>
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<textarea rows="5" placeholder="Message"></textarea>
-<button type="submit">Submit</button>
-</form>
-</div>
-</body>
-</html>
-
-    
-        
- 
