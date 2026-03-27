@@ -39,21 +39,12 @@ Deployment
 
 This project is deployed using **GitHub Pages**.
 
-Steps:
-
 1. Push code to GitHub repository
 2. Go to repository settings
 3. Enable GitHub Pages
 4. Select `main` branch
 
----
-
-The website includes an embedded Google Map pointing to Nairobi, Kenya.
-
----
-
-purpose of the Project
-
+PURPOSE 
 This project was created to:
 
 * Practice HTML and CSS
@@ -64,10 +55,8 @@ This project was created to:
 
 
 Author
+John Mulwa
 
-Your Name Here
-
----
 
 #License
 
