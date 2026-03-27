@@ -17,7 +17,6 @@ Joren auto shop is a simple multi-page website for a car auto repair business ba
 Project Structure
 
 ```
-autofix-website/
 index.html
  services.html
  contact.html
